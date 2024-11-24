@@ -8,7 +8,7 @@ import { error } from "console";
 
 const app = e()
 
-let apiKey="832a08d0-a3a3-41c3-a075-6a6140da7550"; //Since we don't have a data base to store the api key, we are hard coding it for now
+let apiKey=""; //Since we don't have a data base to store the api key, we are hard coding it for now
 app.use(bodyParser.urlencoded({extended: true}))
 
 app.get("/",(req,res)=>{
